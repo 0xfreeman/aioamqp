@@ -27,6 +27,7 @@ setuptools.setup(
     install_requires=[
         'pamqp==3.0.0a6', # TODO(bcalvez): for tests purpose, until 3.0 is released
     ],
+    python_requires=">=3.6",
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
@@ -34,7 +35,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
